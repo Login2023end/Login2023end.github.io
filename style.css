@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(85, 85, 85);
+}
+.container{
+    width: 90%;
+    max-width: 970px;
+    background:linear-gradient(135deg, rgb(23, 255, 2) , rgb(5, 205, 255));
+    margin: 100px auto 0;
+    text-align: center;
+    border-radius: 20px;
+}
+.felhasz{
+    border-radius: 20px;
+    border: solid;
+    border-width: 1px;
+    padding: 5px 10px;
+    margin: 20px;
+    font-size: large;
+}
+.container h1{
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 20px;
+}
+.login-button{
+    font-size: large;
+    margin: 30px 0px 20px;
+    padding: 10px 35px;
+    border-radius: 10px;
+    border: solid;
+    border-width: 1px;
+    background-color: rgb(218, 255, 249);
+    font-weight: 500;
+    transition: all 0.5s;
+    transform: scale(1.0);  
+}
+.container a{
+    position: relative;
+    top: -9px;
+}
+.login-button:hover{
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
